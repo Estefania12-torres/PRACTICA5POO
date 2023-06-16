@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("SUMA DE DOS NUMEROS");
         Scanner reader=new Scanner(System.in);
-
-        //variables
+        
+        //Ingresar variables
         int numero1;
         int numero2;
         int resultado;
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Ingrese el segundo numero: ");
         numero2=reader.nextInt();
 
-        //Calcular suma
+        //Calcular la suma de los dos numeros 
         resultado=numero1+numero2;
 
         //Presentar resultado
