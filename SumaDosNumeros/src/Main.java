@@ -6,7 +6,7 @@ public class Main {
         System.out.println("SUMA DE DOS NUMEROS");
         Scanner reader=new Scanner(System.in);
         
-        //Ingresar variables
+        //variables
         int numero1;
         int numero2;
         int resultado;
