@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        //Se crea un objeto Scanner para ingresar los valores del Usuario 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese los valores positivos para el calculo del Area del Triangulo");
-        System.out.println("Ingrese el valor del lado A: ");
+        System.out.println("Ingrese el valor del lado A: "); 
         double valorLadoA = scanner.nextDouble();
         System.out.println("Ingrese el valor del lado B: ");
         double valorLadoB = scanner.nextDouble();
