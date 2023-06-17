@@ -24,7 +24,7 @@ public class Main {
             numeros.add(numero); // Agrega el número generado al conjunto numeros
         }
 
-        return new ArrayList<>(numeros); // Convierte en una lista antes de retornarla.
+        return new ArrayList<>(numeros); // Convierte en una lista antes de retornarla
     }
 
     private static List<Integer> obtenerNumerosPares(List<Integer> numeros) {
