@@ -23,6 +23,8 @@ public class Triangulo {
     public double calcularSemiperimetro(){
         return calcularPerimetro() / 2;
     }
+
+    //Método para calcular el Area del Triangulo usando la Formula de Heron, tomando el valor del Semiperimetro 
     public double calcularAreaTrianguloFormulaHeron(){
         double semiperimetro = calcularSemiperimetro();
         double area = Math.sqrt(semiperimetro * (semiperimetro - this.valorLadoA) * (semiperimetro - this.valorLadoB) * (semiperimetro - this.valorLadoC));
