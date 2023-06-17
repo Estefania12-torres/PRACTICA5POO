@@ -1,5 +1,6 @@
 
 public class Estudiante {
+    //atributos
     private String nombre;
     private int nota;
 
