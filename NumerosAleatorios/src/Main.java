@@ -32,7 +32,7 @@ public class Main {
 
         for (int numero : numeros) {
             if (numero % 2 == 0) { // Comprueba si el número es par verificando si su resto al dividirlo por 2 es igual a cero
-                numerosPares.add(numero); // Agrega el número par a la lista de números pares.
+                numerosPares.add(numero); // Agrega el número par a la lista de números pares
             }
         }
         return numerosPares; // Retorna la lista de números pares.
