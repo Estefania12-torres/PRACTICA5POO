@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class Triangulo {
+public class Triangulo { //Creacion de la clase Triangulo
 
     //Declaración de los atributos 
     private double valorLadoA;
