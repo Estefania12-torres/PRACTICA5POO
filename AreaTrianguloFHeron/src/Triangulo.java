@@ -14,6 +14,7 @@ public class Triangulo {
     }
 
     //Metodos
+    //Método para calcular el perimetro de los lados del Triangulo
     public double calcularPerimetro(){
         return this.valorLadoA + this.valorLadoB + this.valorLadoC;
     }
