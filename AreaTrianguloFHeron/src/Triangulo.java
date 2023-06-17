@@ -6,7 +6,7 @@ public class Triangulo {
     private double valorLadoB;
     private double valorLadoC;
 
-    //Constructor
+    //Delaracíon del Constructor que inicializa a los valores de los Lados
     public Triangulo(double valorLadoA, double valorLadoB, double valorLadoC) {
         this.valorLadoA = valorLadoA;
         this.valorLadoB = valorLadoB;
