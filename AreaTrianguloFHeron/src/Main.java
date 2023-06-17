@@ -9,11 +9,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese los valores positivos para el calculo del Area del Triangulo");
         System.out.println("Ingrese el valor del lado A: "); 
-        double valorLadoA = scanner.nextDouble();
+        double valorLadoA = scanner.nextDouble();  //Se obtiene el valor del lado A del triangulo
         System.out.println("Ingrese el valor del lado B: ");
-        double valorLadoB = scanner.nextDouble();
-        System.out.println("Ingrese el valor del lado C: ");
-        double valorLadoC = scanner.nextDouble();
+        double valorLadoB = scanner.nextDouble();  //Se obtiene el valor del lado B del triangulo
+        System.out.println("Ingrese el valor del lado C: "); 
+        double valorLadoC = scanner.nextDouble();  //Se obtiene el valor del lado C del triangulo
 
 
         Triangulo triangulo = new Triangulo(valorLadoA, valorLadoB, valorLadoC);
