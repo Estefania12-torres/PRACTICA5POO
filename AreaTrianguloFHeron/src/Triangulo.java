@@ -19,6 +19,7 @@ public class Triangulo {
         return this.valorLadoA + this.valorLadoB + this.valorLadoC;
     }
 
+    //Método para calcular el Semiperimetro, tomando el resultado del perimetro
     public double calcularSemiperimetro(){
         return calcularPerimetro() / 2;
     }
