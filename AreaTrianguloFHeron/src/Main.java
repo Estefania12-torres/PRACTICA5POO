@@ -16,9 +16,8 @@ public class Main {
         double valorLadoC = scanner.nextDouble();  //Se obtiene el valor del lado C del triangulo
 
 
-        Triangulo triangulo = new Triangulo(valorLadoA, valorLadoB, valorLadoC);
-        System.out.println(triangulo.toString());
-
+        Triangulo triangulo = new Triangulo(valorLadoA, valorLadoB, valorLadoC); //Se crear un objeto Triangulo con los valores de los lados
+        System.out.println(triangulo.toString()); //Presenta los resultados de los metodos del Triangulo 
 
 
 
