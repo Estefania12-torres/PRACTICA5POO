@@ -27,7 +27,7 @@ public class Triangulo {
         return area;
     }
 
-    //Getter and Setter
+    //Creación de los getter y setter de los atributos
     public double getValorLadoA() {
         return valorLadoA;
     }
