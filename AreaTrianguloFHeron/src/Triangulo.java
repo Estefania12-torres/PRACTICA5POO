@@ -1,7 +1,7 @@
 import java.lang.Math;
 public class Triangulo {
 
-    //Atributos
+    //Declaración de los atributos 
     private double valorLadoA;
     private double valorLadoB;
     private double valorLadoC;
