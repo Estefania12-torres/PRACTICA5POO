@@ -35,6 +35,6 @@ public class Main {
                 numerosPares.add(numero); // Agrega el número par a la lista de números pares
             }
         }
-        return numerosPares; // Retorna la lista de números pares.
+        return numerosPares; // Retorna la lista de números pares
     }
 }
