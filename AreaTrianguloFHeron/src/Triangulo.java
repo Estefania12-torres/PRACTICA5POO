@@ -54,6 +54,8 @@ public class Triangulo {
     }
 
     //toString
+    //Presentación de los resultados y implementacion de una condicional, ya que si hay valores negativos no se puede realizar los calculos
+    //Caso contrario si es positivo se realiza los calculos 
     @Override
     public String toString() {
         if (valorLadoA <= 0 || valorLadoB <= 0 || valorLadoC <= 0) {
