@@ -4,12 +4,14 @@ public class Main {
     public static void main(String[] args) {
         //crear lista
         ListEnlazada lista = new ListEnlazada();
+        
         //agregar elementos
         lista.agregarAlInicion(5);
         lista.agregarAlInicion(10);
         lista.agregarAlInicion(15);
         lista.agregarAlInicion(20);
-       //mostrar lista
+       
+        //mostrar lista
         lista.mostrarLista();
 
     }
