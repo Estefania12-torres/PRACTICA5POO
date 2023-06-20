@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); //Crea una instancia de la clase Scanner para leer la entrada del usuario desde la consola.
         List<Estudiante> estudiantes = new ArrayList<>();
 
         System.out.print("Ingrese la cantidad de estudiantes: ");
