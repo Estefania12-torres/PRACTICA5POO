@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         ListCircular lista = new ListCircular();
+       
         // Agregar valores a la lista
         lista.agregar(8);
         lista.agregar(14);
@@ -23,7 +24,6 @@ public class Main {
         // Eliminar el nodo con valor 24
         lista.eliminarNodo(34);
         lista.mostrarLista();
-
 
 
         // Mostrar la lista después de la eliminación
