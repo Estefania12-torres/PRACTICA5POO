@@ -24,6 +24,6 @@ public class Main {
         }
 
         Ordenar ordenar = new Ordenar();
-        Ordenar.procesarEstudiantes(estudiantes);
+        Ordenar.procesarEstudiantes(estudiantes); // Llama al método estático procesarEstudiantes() de la clase Ordenar
     }
 }
