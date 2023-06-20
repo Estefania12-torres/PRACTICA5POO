@@ -1,7 +1,9 @@
 public class Lista {
+    //atributos 
     private Nodo inicio;
     private Nodo fin;
-
+    
+    //constructor
     public Lista() {
         inicio = null;
         fin = null;
