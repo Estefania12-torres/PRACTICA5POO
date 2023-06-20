@@ -19,7 +19,7 @@ public class Main {
             int nota = scanner.nextInt();
             scanner.nextLine(); // Consumir el salto de línea pendiente después de nextInt()
 
-            Estudiante estudiante = new Estudiante(nombre, nota);
+            Estudiante estudiante = new Estudiante(nombre, nota); //Se crea un objeto Estudiante con el nombre y la nota ingresados
             estudiantes.add(estudiante);
         }
 
