@@ -1,14 +1,17 @@
 public class Nodo {
+    //atributos
     int dato;
     Nodo siguiente;
     Nodo anterior;
-
+   
+    //constructor
     public Nodo(int dato) {
         this.dato = dato;
         siguiente = null;
         anterior = null;
     }
-
+   
+    //getters y setters
     public int getDato() {
         return dato;
     }
