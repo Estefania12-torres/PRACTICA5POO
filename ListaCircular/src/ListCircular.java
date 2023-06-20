@@ -58,11 +58,12 @@ public class ListCircular {
         }
         System.out.println("No se encontró el dato " + dato + " en la lista.");
     }
-    public void mostrarLista() {
+    ublic void mostrarLista() {
         if (listaVacia()) {
             System.out.println("La lista está vacía.");
         } else {
             Nodo aux = inicio.getSiguiente();
+            System.out.print("-->");
             do {
                 System.out.print("[" + aux.getDato() + "]-->");
                 aux = aux.getSiguiente();
@@ -71,8 +72,5 @@ public class ListCircular {
         }
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
+    
 }
