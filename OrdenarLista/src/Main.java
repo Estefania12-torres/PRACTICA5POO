@@ -8,7 +8,7 @@ public class Main {
         List<Estudiante> estudiantes = new ArrayList<>(); //Crea una lista llamada estudiantes que almacenará objetos de tipo Estudiante
 
         System.out.print("Ingrese la cantidad de estudiantes: ");
-        int cantidadEstudiantes = scanner.nextInt();
+        int cantidadEstudiantes = scanner.nextInt(); // Lee un entero ingresado por el usuario utilizando el método nextInt()
         scanner.nextLine(); // Consumir el salto de línea pendiente después de nextInt()
 
         for (int i = 0; i < cantidadEstudiantes; i++) {
