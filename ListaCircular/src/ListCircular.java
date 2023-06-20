@@ -9,7 +9,6 @@ public class ListCircular {
         return inicio == null;
     }
 
-
     public void agregar(int dato) {
         Nodo nuevo = new Nodo(dato);
         if (listaVacia()) {
