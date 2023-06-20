@@ -29,6 +29,6 @@ public class Ordenar {
 
         System.out.println("Nota más alta: " + notaMaxima);
         System.out.println("Nota más baja: " + notaMinima);
-        // Resto del código...
+      
     }
 }
